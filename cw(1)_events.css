@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+/*
+	author: Natalie Lin
+	
+	filename: cw(1)_events.css
+	
+	Styles for the events page.
+*/
+
+/*Non-table styles.*/
+p#newEvents {
+	text-align: center;
+	padding: 0px 50px;
+}
+div#eventList {
+   -webkit-flex: 1 1 350px;
+   flex: 1 1 350px;   
+   margin: 20px;
+}
+
+/*Table Styles*/
+table#eventTable {
+   margin-top: 30px;
+   width: 100%;
+   font-size: 0.75em;
+   border-collapse: collapse;
+}
+
+table#eventTable td, table#eventTable th {
+   padding: 5px;
+   vertical-align: top;
+   border: 1px solid rgb(26,27,106);
+}
+
+table#eventTable h3 {
+   font-size: 2em;
+   letter-spacing: 0.03em;
+   margin: 0px 0px 10px;
+   color: rgb(26,27,106);
+}
+
+table#eventTable th {
+   background-color: rgb(26,27,106);
+   color: white;
+   font-weight: normal;
+}
+
+table#eventTable tr:nth-of-type(even) {
+   background-color: rgb(247, 241, 168);
+}
+
+table#eventTable tr:nth-of-type(odd) {
+   background-color: rgb(247, 179, 173);
+}

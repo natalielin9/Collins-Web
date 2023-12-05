@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*
+	author: Natalie Lin
+   
+	filename: cw(1)_communityPartners.css
+
+	Codes for the styling of the community partner page and the resources page. 
+*/
+
+/*Community Partners styles for the list.*/
+ul#allPartnersList {
+  width: 90%;
+  margin: 40px 0px;
+}
+
+ul#allPartnersList li {
+  display: block;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+ul#allPartnersList li img {
+  display: block;
+  width: 15%;
+  float: left;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+ul#allPartnersList li h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#allPartnersList li p {
+  float: left;
+  width: 70%;
+}
+
+/*Resources page styles for the list.*/
+ul#allResourcesList {
+  width: 90%;
+  margin: 40px 0px;
+}
+
+ul#allResourcesList li {
+  display: block;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+ul#allResourcesList li img {
+  display: block;
+  width: 15%;
+  float: left;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+ul#allResourcesList li h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#allResourcesList li p {
+  float: left;
+  width: 75%;
+}

@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+
+/*
+	Collins Web General Style Sheet
+  
+	author: Natalie Lin
+  
+	filename: cw(1)_styles.css
+
+	Main Colors: 
+		red rgb(235,67,52)
+		blue rgb(26,27,106)
+		yellow rgb(240,226,67)
+		
+	The primary styling for all the files. 
+*/
+
+
+/* HTML and Body styles */
+html {
+	overflow-x: hidden;
+	width: 100%;
+	background: rgb(26,27,106);
+	font-family: Verdana, Geneva, sans-serif;
+	height: 100%;
+
+}
+
+body {
+	background-color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+/* Header styles */
+
+header {
+   background: rgb(26,27,106);
+}
+
+header div {
+	max-width: 100%;
+}
+
+header img#banner {
+	top: 0px;
+	display: block;
+	float: left;
+	background: rgb(26,27,106);
+	padding: 20px 20px 20px 0px;
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+}
+
+/* Navigation bar styles */
+header nav ul {
+	max-width: 100%;
+	background-color: rgb(235,67,52);
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;	
+}
+   
+header nav ul li {
+	font-size: 1em;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;	
+}
+
+header nav ul li a {
+   color: white;
+   display: block;
+   padding: 5px 20px;
+   width: 100%;
+}
+
+header nav ul li a:hover {
+   color: rgb(240,226,67);
+}
+
+nav a {
+	text-decoration: none;
+}
+ul, ol {
+	list-style: none;
+}
+
+/* Section Styles */
+
+section#events {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   padding: 10px 0px;
+}
+
+
+/* Article Styles */
+article#home {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+article#home p {
+	font-size: 1.5em;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+article {
+   -webkit-flex: 1 1 250px;
+   flex: 1 1 250px;   
+   margin: 20px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+article h1 {
+   color: rgb(26,27,106);
+   font-family: "Times New Roman", Times,  serif;
+   font-weight: bold;
+   font-size: 2.5em;
+   letter-spacing: 0.03em;
+   line-height: 1.2em;
+   margin-right: 30px;
+   margin-left: 30px;
+   margin-top: 30px;
+   text-align: center;
+}
+
+article p {
+   line-height: 1.5;
+   margin-right: 30px;
+   margin-left: 30px;
+   margin-bottom: 15px;
+   font-size: 0.85em;
+}
+
+article p em {
+   color: rgb(154, 64, 3);
+}
+
+/* Image Styles */
+img {
+	display: inline-block;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	float: right;
+	margin: 0px 60px;
+}
+
+
+/*Paragraph styles*/
+p {
+	display: inline;
+}
+
+
+
+/* Additional Information Section Styles */
+ul#information {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#information > li {
+	display: block;
+	width: 27%;
+	float: left;
+	margin-left: 0%;
+	margin-right: 3%;
+}
+
+ul#information > li:first-child {
+  margin-left: 4%;
+}
+
+ul#information > li:last-child {
+  margin-right: 5%;
+}
+
+ul#information > li > img {
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+
+hr {
+	margin: 20px 0px;
+	padding: 0px;
+	width: 90%;
+}
+
+
+/* Footer styles */   
+
+footer {
+   clear: both;
+   color: white;    
+   background-color: rgb(235,67,52);
+   overflow: auto;
+   font-size: 0.7em;  
+   font-style: normal;
+   width: 100%;
+   margin-top: 20px;
+}
+
+footer nav ul, footer section {
+   float: right;
+   padding: 10px 30px;
+   width: 20%;
+}
+
+footer section {
+   float: left;
+   padding: 5px 30px 25px;
+   width: 40%;
+}
+
+footer nav ul a {
+   color: white;
+}
+
+footer nav ul a:hover {
+   text-decoration: underline;
+}
+
+footer::after {
+   display: table;
+   content: "";
+   clear: both;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+/* form page styles */
+section {
+   width: 100%;
+   padding: 0px 40px 10px 40px;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;   
+}
+
+section div {
+	color: rgb(26,27,106);
+	font-weight: normal;
+	flex: 0 0 100%;
+}
+
+section div#back {
+	padding: 20px 0px 5px 0px;
+}
+
+section > h1 {
+   font-size: 2.2em;
+   color: rgb(235,67,52);
+   font-weight: normal;
+   flex: 0 0 100%;
+}
+
+section form {
+   -webkit-flex: 3 1 4800px;
+   flex: 3 1 480px;
+   margin-top: 0px;
+   margin-right: 20px;
+}
+
+section form div {
+	padding: 5px 0px;
+}
+
+
+
